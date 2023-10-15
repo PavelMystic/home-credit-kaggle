@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkl_home_credit_solution"
+version = "0.0.1"
+description = "My implementation of possible Kaggle Home Credit Default Risk challenge solution"
+readme = "readme.md"
+requires-python = ">=3.10"
+authors = [{name="Pavel Kulmon", email="Kulmon@seznam.cz"}]
+dependencies = [
+    "polars",
+    "ipykernel",
+    "numpy",
+    "scikit-learn",
+    "pandas",
+    "pyarrow"]
+
+[project.urls]
+Homepage = "https://www.kaggle.com/competitions/home-credit-default-risk/overview"

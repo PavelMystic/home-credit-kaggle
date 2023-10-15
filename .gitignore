@@ -1,0 +1,5 @@
+__pycache__/
+venv/
+*.zip
+home-credit-default-risk/*
+*.egg-info*
