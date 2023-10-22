@@ -3,3 +3,4 @@ venv/
 *.zip
 home-credit-default-risk/*
 *.egg-info*
+models/

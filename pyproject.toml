@@ -15,7 +15,14 @@ dependencies = [
     "numpy",
     "scikit-learn",
     "pandas",
-    "pyarrow"]
+    "pyarrow",
+    "shap",
+    "matplotlib"]
 
 [project.urls]
 Homepage = "https://www.kaggle.com/competitions/home-credit-default-risk/overview"
+
+[project.optional-dependencies]
+dev = [
+    "black"
+]
